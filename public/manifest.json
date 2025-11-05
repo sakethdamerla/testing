@@ -1,0 +1,104 @@
+{
+  "name": "Faculty Leave Management System",
+  "short_name": "Faculty LMS",
+  "description": "Digital leave management system for Pydah College faculty and staff. Manage leave applications, attendance, tasks, and employee services.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "categories": [
+    "education",
+    "productivity",
+    "business"
+  ],
+  "keywords": [
+    "faculty lms",
+    "leave management",
+    "pydah college",
+    "employee portal",
+    "digital faculty",
+    "pydah soft"
+  ],
+  "author": "Pydah Soft",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "PYDAH_LOGO.ico",
+      "sizes": "256x256",
+      "type": "image/x-icon",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "PYDAH_LOGO_PHOTO.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Faculty LMS Dashboard - Desktop View"
+    },
+    {
+      "src": "PYDAH_LOGO_PHOTO.jpg",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Faculty LMS Mobile Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Employee Dashboard",
+      "short_name": "Dashboard",
+      "description": "Access employee dashboard",
+      "url": "/employee/dashboard",
+      "icons": [
+        {
+          "src": "PYDAH_LOGO.ico",
+          "sizes": "256x256"
+        }
+      ]
+    },
+    {
+      "name": "Leave Application",
+      "short_name": "Leave",
+      "description": "Apply for leave or permission",
+      "url": "/employee/leave",
+      "icons": [
+        {
+          "src": "PYDAH_LOGO.ico",
+          "sizes": "256x256"
+        }
+      ]
+    },
+    {
+      "name": "Task Management",
+      "short_name": "Tasks",
+      "description": "View and manage assigned tasks",
+      "url": "/employee/tasks",
+      "icons": [
+        {
+          "src": "PYDAH_LOGO.ico",
+          "sizes": "256x256"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://pydah-faculty-lms.vercel.app/"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
